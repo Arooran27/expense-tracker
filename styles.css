@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, select, button {
+    margin: 5px 0;
+    padding: 10px;
+}
+select {
+    background-color: lightgray;
+}
+#type {
+    color: black;
+}
+#type option[value="Income"] {
+    color: green;
+}
+#type option[value="Expense"] {
+    color: red;
+}
+button {
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: darkblue;
+}
+#status {
+    margin-top: 10px;
+    text-align: center;
+}
